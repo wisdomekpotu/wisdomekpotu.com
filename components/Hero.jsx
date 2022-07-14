@@ -14,7 +14,10 @@ export default function Hero() {
             <span className='text-xl  text-white '>Hello there👋,</span>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
               I’m{' '}
-              <span className='text-emerald-400 sm:text-5xl'>
+              <span
+                className='text-emerald-400 sm:text-5xl'
+                style={{ fontFamily: 'Rubik Moonrocks' }}
+              >
                 {' '}
                 Wisdom Ekpotu,
               </span>{' '}
