@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
 import NextLogo from '../public/asset/Next.png';
-import TypescriptLogo from '../public/asset/TypeScript.png';
+import TypescriptLogo from '../public/asset/typeScript.svg';
+import TailwindLogo from '../public/asset/tailwind.svg';
+import ReactLogo from '../public/asset/react.svg';
+import MaterialLogo from '../public/asset/material.svg';
+import GraphLogo from '../public/asset/graphql.svg';
+import ReduxLogo from '../public/asset/redux.svg';
+import FirebaseLogo from '../public/asset/firebase.svg';
 
 export default function Tools() {
   return (
@@ -21,14 +27,51 @@ export default function Tools() {
               <Image src={NextLogo} alt='react_logo' />
             </li>
             <li>
-              <Image src={TypescriptLogo} alt='typescipt logo' />
+              <Image
+                src={TypescriptLogo}
+                alt='typescipt logo'
+                width={120}
+                height={60}
+              />
             </li>
-            <li>Redux ToolKit</li>
-            <li>TypeScript</li>
-            <li>Tailwind CSS</li>
-
-            <li>Material UI</li>
-            <li>Firebase</li>
+            <li>
+              <Image src={ReactLogo} alt='react logo' width={120} height={60} />
+            </li>
+            <li>
+              <Image
+                src={TailwindLogo}
+                alt='tailwind logo'
+                width={120}
+                height={60}
+              />
+            </li>
+            <li>
+              <Image
+                src={MaterialLogo}
+                alt='material logo'
+                width={120}
+                height={60}
+              />
+            </li>
+            <li>
+              <Image
+                src={FirebaseLogo}
+                alt='firebase logo'
+                width={120}
+                height={60}
+              />
+            </li>
+            <li>
+              <Image src={ReduxLogo} alt='redux logo' width={120} height={60} />
+            </li>
+            <li>
+              <Image
+                src={GraphLogo}
+                alt='graghql logo'
+                width={120}
+                height={60}
+              />
+            </li>
           </ul>
         </div>
       </div>
