@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='flex items-center justify-between border-b border-gray-400 py-3 container mx-auto px-2'>
+      <div className='flex items-center justify-between border-b border-gray-400 py-3 container mx-auto px-20'>
         <Link href='https://wisdomekpotu.com'>
           <span className='text-emerald-400 cursor-pointer'>
             <Image

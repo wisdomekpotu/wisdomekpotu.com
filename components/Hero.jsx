@@ -8,15 +8,20 @@ export default function Hero() {
   return (
     <>
       <Head></Head>
-      <section className='text-gray-600 body-font'>
-        <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
+      <section className='text-gray-600 body-font border-b border-gray-400'>
+        <div className='container mx-auto flex px-20 py-20 md:flex-row flex-col items-center'>
           <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-2xl'>
-            <span className='text-2xl text-white'>Hello there👋,</span>
+            <span className='text-xl  text-white '>Hello there👋,</span>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-              I’m <span className='text-emerald-400'> Wisdom Ekpotu,</span>{' '}
+              I’m{' '}
+              <span className='text-emerald-400 sm:text-5xl'>
+                {' '}
+                Wisdom Ekpotu,
+              </span>{' '}
               <br />
               Software Engineer
             </h1>
+
             <p className='mb-8 leading-relaxed text-white'>
               I specialize in building exceptional digital experiences.
               Currently, I’m focused on building accessible, human-centered
