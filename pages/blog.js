@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Card from '../components/Article/Card'
 import { allArticles } from 'contentlayer/generated';
 import { select } from '../utils/select';
+import Navbar from '../components/Navbar';
 
 
 
@@ -16,6 +17,7 @@ export default function Blog({articles}) {
 
 
      <main>
+      <Navbar/>
      {articles.map(
             ({
               title,
