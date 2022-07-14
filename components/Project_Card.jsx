@@ -6,8 +6,16 @@ export default function Project_Card() {
   return (
     <>
       {' '}
-      <section className='text-gray-600 body-font '>
-        <div className='container mx-auto flex  py-20 md:flex-row flex-col '>
+      <section className='text-gray-600 body-font border-b border-gray-400'>
+        <div className='container mx-auto flex px-20 py-24 md:flex-row flex-col items-center '>
+          <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center'>
+            <h1 className='title-font sm:text-5xl text-4xl font-medium text-white'>
+              Featured Projects
+            </h1>
+          </div>
+        </div>
+
+        <div className='container mx-auto flex  py-1 md:flex-row flex-col '>
           <div className='md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-emerald-400'>
               Dev House
@@ -96,7 +104,7 @@ export default function Project_Card() {
             />
           </div>
         </div>
-        <div className='container mx-auto flex  py-2 md:flex-row flex-col '>
+        <div className='container mx-auto flex  py-20 md:flex-row flex-col '>
           <div className='md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-emerald-400'>
               Dev House

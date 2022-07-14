@@ -6,7 +6,7 @@ export default function Get_in_touch() {
       <section className='text-gray-600 body-font'>
         <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
           <div className='text-center lg:w-2/3 w-full'>
-            <h1 className='title-font sm:text-4xl text-6xl mb-4 font-medium text-emerald-300'>
+            <h1 className='title-font sm:text-5xl text-6xl mb-4 font-medium text-emerald-300'>
               Get In Touch
             </h1>
             <p className='mb-8 leading-relaxed text-white text-xl'>
