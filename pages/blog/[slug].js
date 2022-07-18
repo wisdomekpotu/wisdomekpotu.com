@@ -1,7 +1,7 @@
 import { allArticles } from 'contentlayer/generated';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 import { NextSeo } from 'next-seo';
-import { Detail } from '../../components/Article/Detail';
+import Detail  from '../../components/Article/Detail';
 
 const usedcomponents = {};
 

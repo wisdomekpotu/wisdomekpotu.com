@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export const Detail = ({ author, image, category, title, children }) => {
+const Detail = ({ author, image, category, title, children }) => {
   return (
     <div className='px-4 py-24'>
       <div className='mx-auto max-w-prose'>
@@ -36,3 +36,5 @@ export const Detail = ({ author, image, category, title, children }) => {
     </div>
   );
 };
+
+export default Detail;

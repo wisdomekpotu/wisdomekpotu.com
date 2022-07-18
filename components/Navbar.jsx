@@ -63,23 +63,27 @@ export default function Navbar() {
           <ul className='DESKTOP-MENU hidden space-x-9 lg:flex'>
             <li className=' text-emerald-400'>
               <Link href='/blog'>
-                {' '}
-                <FontAwesomeIcon
-                  icon={faPen}
-                  style={{ fontSize: 14, color: '#01D5A2' }}
-                />{' '}
-                Blog
+                <a>
+                  {' '}
+                  <FontAwesomeIcon
+                    icon={faPen}
+                    style={{ fontSize: 14, color: '#01D5A2' }}
+                  />{' '}
+                  Blog
+                </a>
               </Link>
             </li>
 
             <li className=' text-emerald-400 '>
               <Link href='/projects'>
-                {' '}
-                <FontAwesomeIcon
-                  icon={faCodeBranch}
-                  style={{ fontSize: 14, color: '#01D5A2' }}
-                />{' '}
-                Projects
+                <a>
+                  {' '}
+                  <FontAwesomeIcon
+                    icon={faCodeBranch}
+                    style={{ fontSize: 14, color: '#01D5A2' }}
+                  />{' '}
+                  Projects
+                </a>
               </Link>
             </li>
           </ul>
