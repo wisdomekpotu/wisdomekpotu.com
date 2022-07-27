@@ -19,8 +19,13 @@ export default function Get_in_touch() {
               you!
             </p>
             <div className='flex justify-center'>
-              <button className='inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-400 rounded text-lg outline-dashed outline-2 outline-offset-2'>
-                Say Hello!
+              <button>
+                <a
+                  href='mailto:whizfidel@gmail.com'
+                  className='inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-400 rounded text-lg outline-dashed outline-2 outline-offset-2'
+                >
+                  Say Hello!
+                </a>
               </button>
             </div>
           </div>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import Firebase from '../public/asset/firebase.webp';
 import Mobile from '../public/asset/mobile.webp';
+import MDX from '../public/asset/MDX.webp';
 
 export default function Featured_Post() {
   return (
@@ -68,6 +69,38 @@ export default function Featured_Post() {
             </p>
             <a
               href='https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-javascript'
+              className='text-indigo-500 inline-flex items-center mt-3'
+            >
+              Learn More
+              <svg
+                fill='none'
+                stroke='currentColor'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                className='w-4 h-4 ml-2'
+                viewBox='0 0 24 24'
+              >
+                <path d='M5 12h14M12 5l7 7-7 7'></path>
+              </svg>
+            </a>
+          </div>
+          <div className='p-4 md:w-1/3 sm:mb-0 mb-6'>
+            <div className='rounded-lg h-64 overflow-hidden'>
+              <Image
+                alt='content'
+                className='object-cover object-center h-full w-full'
+                src={MDX}
+              />
+            </div>
+            <h2 className='text-xl font-medium title-font  text-white mt-5'>
+              Build a MDX-powered blog with Contentlayer and Next
+            </h2>
+            <p className='text-base leading-relaxed mt-2 text-gray-400'>
+              A simple way of creating a static Markdown-based blog site
+            </p>
+            <a
+              href='https://blog.openreplay.com/build-a-mdx-powered-blog-with-contentlayer-and-next'
               className='text-indigo-500 inline-flex items-center mt-3'
             >
               Learn More
