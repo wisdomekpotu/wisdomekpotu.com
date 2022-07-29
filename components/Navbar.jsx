@@ -56,6 +56,9 @@ export default function Navbar() {
                 <li className='border-b text-emerald-400 my-8 uppercase'>
                   <Link href='/projects'>Projects</Link>
                 </li>
+                <li className='border-b text-emerald-400 my-8 uppercase'>
+                  <Link href='/projects'>Download Resume</Link>
+                </li>
               </ul>
             </div>
           </section>
@@ -69,13 +72,13 @@ export default function Navbar() {
                     icon={faPen}
                     style={{ fontSize: 14, color: '#01D5A2' }}
                   />{' '}
-                  Blog
+                  Technical Articles
                 </a>
               </Link>
             </li>
 
             <li className=' text-emerald-400 '>
-              <Link href='/projects'>
+              <Link href='#'>
                 <a>
                   {' '}
                   <FontAwesomeIcon
@@ -84,6 +87,11 @@ export default function Navbar() {
                   />{' '}
                   Projects
                 </a>
+              </Link>
+            </li>
+            <li className=' text-green-400 '>
+              <Link href='#'>
+                <a>Download Resume</a>
               </Link>
             </li>
           </ul>
