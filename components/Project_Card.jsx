@@ -25,9 +25,9 @@ export default function Project_Card() {
             </h1>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <p className='mb-8 leading-relaxed text-xl text-white'>
-              Chakra UI Pro provides a set of beautiful and <br />
-              responsive React components to build your application, <br />{' '}
-              marketing and eCommerce pages quicker.
+              Dev House is an Open Source Blogging Platform for Developers.
+              Instantly create a blog for free, then share your thoughts with
+              engineers, developers, and other tech professionals.
             </p>
             <div className='flex justify-center'>
               <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
@@ -110,26 +110,27 @@ export default function Project_Card() {
         <div className='container mx-auto flex  py-20 md:flex-row flex-col '>
           <div className='md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-emerald-400'>
-              Dev House
+              Shadow-Flix
             </h1>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <p className='mb-8 leading-relaxed text-xl text-white'>
-              Chakra UI Pro provides a set of beautiful and <br />
-              responsive React components to build your application, <br />{' '}
-              marketing and eCommerce pages quicker.
+              Open Source Blogging Platform for Developers
             </p>
             <div className='flex justify-center'>
-              <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                React
+              <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                Next.js
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Material UI
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                TailwindCSS
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Firebase
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                Graphql
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Netlify
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                Redux
+              </button>
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                Vercel
               </button>
             </div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

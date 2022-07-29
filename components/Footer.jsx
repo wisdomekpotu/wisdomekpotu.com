@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <>
-      <footer className='text-emerald-600 body-font mt-40'>
+      <footer className='text-emerald-600 body-font mt-5'>
         <div className='bg-black-100'>
           <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
             <p className='text-emerald-300 text-sm text-center sm:text-left'>
