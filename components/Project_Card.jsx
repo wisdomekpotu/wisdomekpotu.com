@@ -34,7 +34,7 @@ export default function Project_Card() {
                 React
               </button>
               <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Material UI
+                MUI
               </button>
               <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Firebase
@@ -124,7 +124,7 @@ export default function Project_Card() {
                 React
               </button>
               <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Material UI
+                MUI
               </button>
               <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Firebase
