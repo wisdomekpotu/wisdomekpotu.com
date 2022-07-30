@@ -7,7 +7,7 @@ export default function Project_Card() {
     <>
       {' '}
       <section className='text-gray-600 body-font border-b border-gray-400'>
-        <div className='container mx-auto flex px-20 py-24 md:flex-row flex-col items-center '>
+        <div className='container mx-auto flex px-10 py-24 md:flex-row flex-col items-center '>
           <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center'>
             <h1
               className='title-font sm:text-5xl text-4xl font-medium text-white'
@@ -19,24 +19,24 @@ export default function Project_Card() {
         </div>
 
         <div className='container mx-auto flex  py-1 md:flex-row flex-col '>
-          <div className='md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-emerald-400'>
+          <div className='   flex flex-col md:items-start md:text-left '>
+            <h1 className='title-font sm:text-4xl justify-start text-3xl mb-4 px-10 font-medium text-emerald-400'>
               Dev House
             </h1>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <p className='mb-8 leading-relaxed text-xl text-white'>
+            <p className='mb-8 leading-relaxed text-xl text-white px-10 md:justify-start'>
               Dev House is an Open Source Blogging Platform for Developers.
               Instantly create a blog for free, then share your thoughts with
               engineers, developers, and other tech professionals.
             </p>
-            <div className='flex justify-center'>
-              <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+            <div className='flex px-10'>
+              <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 React
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Material UI
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Firebase
               </button>
               <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
@@ -44,7 +44,7 @@ export default function Project_Card() {
               </button>
             </div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <div className='flex w-full md:justify-start justify-center items-end'>
+            <div className='flex w-full md:justify-start items-end px-10'>
               <div className='relative mr-4 lg:w-full xl:w-1/2 w-2/4'>
                 <div className='flex '>
                   <Link href='https://devhouse.live'>
@@ -99,7 +99,7 @@ export default function Project_Card() {
               </div>
             </div>
           </div>
-          <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 '>
+          <div className='  w-full mb-10 mt-5 justify-center md:mb-0 px-5'>
             <Image
               className='object-cover object-center rounded-3xl'
               alt='hero'
@@ -107,34 +107,34 @@ export default function Project_Card() {
             />
           </div>
         </div>
-        <div className='container mx-auto flex  py-20 md:flex-row flex-col '>
-          <div className='md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-emerald-400'>
-              Shadow-Flix
+
+        <div className='container mx-auto flex  py-10 md:flex-row flex-col mb-6'>
+          <div className='   flex flex-col md:items-start md:text-left '>
+            <h1 className='title-font sm:text-4xl justify-start text-3xl mb-4 px-10 font-medium text-emerald-400'>
+              Dev House
             </h1>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <p className='mb-8 leading-relaxed text-xl text-white'>
-              Open Source Blogging Platform for Developers
+            <p className='mb-8 leading-relaxed text-xl text-white px-10 md:justify-start'>
+              Dev House is an Open Source Blogging Platform for Developers.
+              Instantly create a blog for free, then share your thoughts with
+              engineers, developers, and other tech professionals.
             </p>
-            <div className='flex justify-center'>
+            <div className='flex px-10'>
               <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Next.js
+                React
               </button>
               <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                TailwindCSS
+                Material UI
               </button>
               <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Graphql
+                Firebase
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Redux
-              </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-                Vercel
+              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+                Netlify
               </button>
             </div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <div className='flex w-full md:justify-start justify-center items-end'>
+            <div className='flex w-full md:justify-start items-end px-10'>
               <div className='relative mr-4 lg:w-full xl:w-1/2 w-2/4'>
                 <div className='flex '>
                   <Link href='https://devhouse.live'>
@@ -189,7 +189,7 @@ export default function Project_Card() {
               </div>
             </div>
           </div>
-          <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 '>
+          <div className='  w-full mb-10 mt-5 justify-center md:mb-0 px-5'>
             <Image
               className='object-cover object-center rounded-3xl'
               alt='hero'
