@@ -35,20 +35,18 @@ export default function Hero() {
             <div className='flex justify-center'>
               <Link href='https://www.linkedin.com/in/wisdom-ekpotu/'>
                 <span className='text-emerald-400 cursor-pointer'>
-                  LinkedIn ↗️
+                  LinkedIn↗
                 </span>
               </Link>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <Link href='https://twitter.com/Wisdom_Ekpotu'>
                 <span className='text-emerald-400 cursor-pointer'>
-                  Twitter ↗️
+                  Twitter↗
                 </span>
               </Link>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <Link href='https://github.com/wisdomekpotu'>
-                <span className='text-emerald-400 cursor-pointer'>
-                  Github ↗️
-                </span>
+                <span className='text-emerald-400 cursor-pointer'>Github↗</span>
               </Link>
             </div>
           </div>
