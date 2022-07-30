@@ -29,17 +29,17 @@ export default function Project_Card() {
               Instantly create a blog for free, then share your thoughts with
               engineers, developers, and other tech professionals.
             </p>
-            <div className='flex px-10'>
+            <div className='flex px-10 '>
               <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 React
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Material UI
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Firebase
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Netlify
               </button>
             </div>
@@ -123,13 +123,13 @@ export default function Project_Card() {
               <button className=' inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 React
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Material UI
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Firebase
               </button>
-              <button className='ml-4 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+              <button className='ml-1 inline-flex text-gray-800 bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
                 Netlify
               </button>
             </div>
