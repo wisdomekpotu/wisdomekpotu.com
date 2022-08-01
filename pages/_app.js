@@ -24,8 +24,6 @@ return (
     images: [
       {
         url: {headshot},
-        width: 800,
-        height: 420,
         alt: "headshot image",
       },
     ],
