@@ -15,7 +15,7 @@ return (
   title="Wisdom Ekpotu's Portfolio"
   titleTemplate="Wisdom Ekpotu's Portfolio"
   defaultTitle="Wisdom Ekpotu's Portfolio"
-  description="I’m a software engineer specializing in building exceptional digital experiences."
+  description="I’m a software engineer who loves building exceptional digital experiences on the web."
   canonical="https://wisdomekpotu.com"
   openGraph={{
     url: "https://wisdomekpotu.com",
@@ -24,6 +24,8 @@ return (
     images: [
       {
         url: {headshot},
+        width:'1024px',
+        height:"512px",
         alt: "headshot image",
       },
     ],
