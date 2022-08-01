@@ -21,25 +21,28 @@ return (
     url: "https://wisdomekpotu.com",
     title: "Wisdom Ekpotu's Portfolio",
     description: "I’m a software engineer who loves building exceptional digital experiences on the web.",
+    locale: 'en_US',
+    title: '',
+    defaultImageWidth: 1200,
+    defaultImageHeight: 630,
     images: [
       {
         url: {headshot},
-        width:'1024px',
-        height:"512px",
+        width:'1200',
+        height:'630',
         alt: "headshot image",
       },
     ],
   }}
   twitter={{
     handle: "@wisdomekpotu",
-    site: "wisdomekpotu.com",
+    site: "@wisdomekpotu.com",
     cardType: "summary_large_image",
   }}
 />
 <Component {...pageProps} />
 </>
 )
-
 }
 
 export default MyApp
