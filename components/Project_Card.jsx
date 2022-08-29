@@ -25,7 +25,7 @@ export default function Project_Card() {
             </h1>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <p className='mb-8 leading-relaxed text-xl text-white px-10 md:justify-start'>
-              Dev House is an Open Source Blogging Platform for Developers.
+              Dev House is an Open Source Multi-User Blogging Platform for Developers.
               Instantly create a blog for free, then share your thoughts with
               engineers, developers, and other tech professionals.
             </p>
