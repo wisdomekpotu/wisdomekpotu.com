@@ -5,6 +5,7 @@ import Firebase from '../../public/asset/firebase.webp';
 import Mobile from '../../public/asset/mobile.webp';
 import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
+import Algolia from '../../public/asset/Algolia.webp';
 
 export default function Card({
   title,
@@ -90,6 +91,7 @@ export default function Card({
               </a>
             </div>
           </div>
+
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <a
@@ -111,6 +113,31 @@ export default function Card({
 
                   <p className='mt-1 text-xs text-gray-500'>
                     A fast, easy way to produce onboarding tours for new users
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.openreplay.com/full-text-search-in-react-with-algolia-and-firestore'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Algolia}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Full-text Search in React with Algolia and Firestore
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'>
+                    How to add full-text search capabilities to your React-based
+                    website
                   </p>
                 </div>
               </a>
