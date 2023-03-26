@@ -6,7 +6,7 @@ import Mobile from '../../public/asset/mobile.webp';
 import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
 import Algolia from '../../public/asset/Algolia.webp';
-import SuperTokens from "../../public/asset/SuperTokens.webp"
+import SuperTokens from '../../public/asset/SuperTokens.webp'
 
 export default function Card({
   title,
