@@ -6,6 +6,7 @@ import Mobile from '../../public/asset/mobile.webp';
 import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
 import Algolia from '../../public/asset/Algolia.webp';
+import Next from "../../public/asset/Next.webp"
 
 export default function Card({
   title,
@@ -139,6 +140,26 @@ export default function Card({
                     How to add full-text search capabilities to your React-based
                     website
                   </p>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.logrocket.com/using-supertokens-authentication-next-js/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Next}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.logrocket.co</p>
+
+                  <h5 className='text-sm text-white'>
+                  Using SuperTokens for authentication in Next.js
+                  </h5>
                 </div>
               </a>
             </div>
