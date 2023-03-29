@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import NextLogo from '../public/asset/Next.png';
+// import NextLogo from '../public/asset/Next.png';
 import TypescriptLogo from '../public/asset/typescript.svg';
 import TailwindLogo from '../public/asset/tailwind.svg';
 import ReactLogo from '../public/asset/react.svg';
@@ -26,9 +26,9 @@ export default function Tools() {
           </p>
 
           <ul className='flex text-emerald-300'>
-            <li>
+            {/* <li>
               <Image src={NextLogo} alt='react_logo' />
-            </li>
+            </li> */}
             <li>
               <Image
                 src={TypescriptLogo}

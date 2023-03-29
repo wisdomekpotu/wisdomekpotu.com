@@ -6,7 +6,7 @@ import Mobile from '../../public/asset/mobile.webp';
 import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
 import Algolia from '../../public/asset/Algolia.webp';
-import SuperTokens from '../../public/asset/SuperTokens.webp'
+import SuperTokens from '../../public/asset/SuperTokens.webp';
 
 export default function Card({
   title,
@@ -158,7 +158,7 @@ export default function Card({
                   <p className='text-xs text-gray-500'>blog.logrocket.com</p>
 
                   <h5 className='text-sm text-white'>
-                  Using SuperTokens for authentication in Next.js
+                    Using SuperTokens for authentication in Next.js
                   </h5>
                 </div>
               </a>
