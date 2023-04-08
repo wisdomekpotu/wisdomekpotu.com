@@ -7,6 +7,7 @@ import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
 import Algolia from '../../public/asset/Algolia.webp';
 import SuperTokens from '../../public/asset/SuperTokens.webp';
+import Hack from '../../public/asset/Hack.png';
 
 export default function Card({
   title,
@@ -160,6 +161,31 @@ export default function Card({
                   <h5 className='text-sm text-white'>
                     Using SuperTokens for authentication in Next.js
                   </h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -m-4'>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.openreplay.com/hacktoberfest-contributing-as-a-react-developer/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Hack}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                  <h5 className='text-sm text-white'>
+                  Hacktoberfest 2022: Contributing As A React Developer
+                  </h5>
+
+                
                 </div>
               </a>
             </div>
