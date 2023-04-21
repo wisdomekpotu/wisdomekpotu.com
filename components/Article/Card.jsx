@@ -50,7 +50,7 @@ export default function Card({
             </div>
             <div className='p-4 md:w-1/3'>
               <a
-                href='https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-javascript'
+                href='https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-js/'
                 className='block overflow-hidden rounded-2xl'
               >
                 <Image
