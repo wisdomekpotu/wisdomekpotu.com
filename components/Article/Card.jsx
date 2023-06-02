@@ -7,6 +7,7 @@ import MDX from '../../public/asset/MDX.webp';
 import Joyride from '../../public/asset/Joyride.webp';
 import Algolia from '../../public/asset/Algolia.webp';
 import SuperTokens from '../../public/asset/SuperTokens.webp';
+import Uselayout from "../../public/asset/Uselayout.webp"
 import Hack from '../../public/asset/Hack.png';
 
 export default function Card({
@@ -186,6 +187,24 @@ export default function Card({
                   </h5>
 
                 
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://refine.dev/blog/uselayouteffect-vs-useeffect/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Uselayout}
+                  alt=''
+                />
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>refine.dev/blog</p>
+                  <h5 className='text-sm text-white'>
+                  A Guide to Using the useLayoutEffect Hook in React
+                  </h5>
                 </div>
               </a>
             </div>
