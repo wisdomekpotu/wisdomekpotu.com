@@ -11,7 +11,7 @@ import Uselayout from "../../public/asset/Uselayout.webp"
 import Palmapi from "../../public/asset/Palmapi.webp"
 import Hack from '../../public/asset/Hack.png';
 import Network from '../../public/asset/Network.png';
-import Native from '../../public/asset/Native.avif'
+import Native from '../../public/asset/Native.png'
 
 export default function Card({
   title,
