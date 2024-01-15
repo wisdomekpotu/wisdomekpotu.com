@@ -10,6 +10,8 @@ import SuperTokens from '../../public/asset/SuperTokens.webp';
 import Uselayout from "../../public/asset/Uselayout.webp"
 import Palmapi from "../../public/asset/Palmapi.webp"
 import Hack from '../../public/asset/Hack.png';
+import Network from '../../public/asset/Network.png';
+import Native from '../../public/asset/Native.avif'
 
 export default function Card({
   title,
@@ -25,72 +27,49 @@ export default function Card({
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            <div className='p-4 md:w-1/3'>
+          <div className='p-4 md:w-1/3'>
               <a
-                href='https://blog.openreplay.com/authentication-in-react-18-using-firebase-v9'
+                href='https://blog.logrocket.com/natively-implement-dynamic-imports-react-native/'
                 className='block overflow-hidden rounded-2xl'
               >
                 <Image
                   className='object-cover w-full h-56'
-                  src={Firebase}
+                  src={Native}
                   alt=''
                 />
 
                 <div className='p-4 bg-gray-900'>
-                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+                  <p className='text-xs text-gray-500'>https://blog.logrocket.com/</p>
 
                   <h5 className='text-sm text-white'>
-                    Authentication in React 18 using Firebase v9
+                  Natively implement dynamic imports in React Native
                   </h5>
 
                   <p className='mt-1 text-xs text-gray-500'>
-                    Implement an authentication flow using Firebase, for any
-                    React app
+                  Compare static and dynamic imports in React Native, and explore native vs. third-party solutions for dynamic imports.
                   </p>
                 </div>
               </a>
             </div>
+            
             <div className='p-4 md:w-1/3'>
               <a
-                href='https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-js/'
+                href='https://www.netreo.com/blog/building-a-network-monitoring-dashboard-a-guide/'
                 className='block overflow-hidden rounded-2xl'
               >
                 <Image
                   className='object-cover w-full h-56'
-                  src={Mobile}
+                  src={Network}
                   alt=''
                 />
 
                 <div className='p-4 bg-gray-900'>
-                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+                  <p className='text-xs text-gray-500'>https://www.netreo.com/</p>
 
                   <h5 className='text-sm text-white'>
-                    Building a Mobile App using HTML, CSS, and JavaScript
+                  Building a Network Monitoring Dashboard: A Guide
                   </h5>
 
-                  <p className='mt-1 text-xs text-gray-500'>
-                    A back-to-basics way of developing a mobile app
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className='p-4 md:w-1/3'>
-              <a
-                href='https://blog.openreplay.com/build-a-mdx-powered-blog-with-contentlayer-and-next'
-                className='block overflow-hidden rounded-2xl'
-              >
-                <Image className='object-cover w-full h-56' src={MDX} alt='' />
-
-                <div className='p-4 bg-gray-900'>
-                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
-
-                  <h5 className='text-sm text-white'>
-                    Build a MDX-powered blog with Contentlayer and Next
-                  </h5>
-
-                  <p className='mt-1 text-xs text-gray-500'>
-                    A simple way of creating a static Markdown-based blog site
-                  </p>
                 </div>
               </a>
             </div>
@@ -228,8 +207,61 @@ export default function Card({
               </a>
             </div>
           </div>
+
+          <div className='flex flex-wrap -m-4'>
+         
+          <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-js/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Mobile}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Building a Mobile App using HTML, CSS, and JavaScript
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'>
+                    A back-to-basics way of developing a mobile app
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.openreplay.com/build-a-mdx-powered-blog-with-contentlayer-and-next'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image className='object-cover w-full h-56' src={MDX} alt='' />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Build a MDX-powered blog with Contentlayer and Next
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'>
+                    A simple way of creating a static Markdown-based blog site
+                  </p>
+                </div>
+              </a>
+            </div>
+
+
+          </div>
         </div>
       </section>
     </div>
   );
 }
+
+
+ 
