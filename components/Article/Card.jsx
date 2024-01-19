@@ -12,6 +12,7 @@ import Palmapi from "../../public/asset/Palmapi.webp"
 import Hack from '../../public/asset/Hack.png';
 import Network from '../../public/asset/Network.png'
 import Native from '../../public/asset/Native.png'
+import microfrontend from '../../public/asset/microfrontend.webp'
 
 export default function Card({
   title,
@@ -68,6 +69,28 @@ export default function Card({
 
                   <h5 className='text-sm text-white'>
                   Building a Network Monitoring Dashboard: A Guide
+                  </h5>
+
+                </div>
+              </a>
+            </div>
+
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://bugfender.com/blog/microfrontends/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={microfrontend}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>bugfender.com/blog</p>
+
+                  <h5 className='text-sm text-white'>
+                  Understand Microfrontends: A Guide for Developers and CTOs
                   </h5>
 
                 </div>
