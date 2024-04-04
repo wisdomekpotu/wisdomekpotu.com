@@ -16,6 +16,7 @@ import microfrontend from '../../public/asset/microfrontend.webp'
 import SeleniumClick from "../../public/asset/SeleniumClick.png"
 import microfront from "../../public/asset/microfront.webp"
 import ReactnativeSecurity from "../../public/asset/ReactnativeSecurity.jpg"
+import microaws from "../../public/asset/microaws.webp"
 
 export default function Card({
   title,
@@ -30,6 +31,7 @@ export default function Card({
     <div>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
+
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <a
@@ -124,31 +126,38 @@ export default function Card({
                   </div>
                 </a>
             </div>
+
+
             <div className='p-4 md:w-1/3'>
                 <a
-                  href='https://blog.openreplay.com/full-text-search-in-react-with-algolia-and-firestore'
+                  href='https://bugfender.com/blog/deploying-microfrontends-on-aws/'
                   className='block overflow-hidden rounded-2xl'
                 >
                   <Image
                     className='object-cover w-full h-56'
-                    src={Algolia}
+                    src={microaws}
                     alt=''
                   />
 
                   <div className='p-4 bg-gray-900'>
-                    <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+                    <p className='text-xs text-gray-500'>bugfender.com</p>
 
                     <h5 className='text-sm text-white'>
-                      Full-text Search in React with Algolia and Firestore
+                    Deploying Microfrontends on AWS: A Guide for Developers
                     </h5>
 
                     <p className='mt-1 text-xs text-gray-500'>
-                      How to add full-text search capabilities to your React-based
-                      website
+                    If you are new to Microfrontends architecture, it’s a modern approach for splitting the frontend...
                     </p>
                   </div>
                 </a>
             </div>
+
+
+
+
+
+
             <div className='p-4 md:w-1/3'>
                 <a
                   href='https://blog.logrocket.com/understanding-security-react-native-applications/'
@@ -381,6 +390,39 @@ export default function Card({
                   </div>
                 </a>
             </div>
+            </div>
+            <div className='flex flex-wrap -m-4'>
+
+
+            <div className='p-4 md:w-1/3'>
+                <a
+                  href='https://blog.openreplay.com/full-text-search-in-react-with-algolia-and-firestore'
+                  className='block overflow-hidden rounded-2xl'
+                >
+                  <Image
+                    className='object-cover w-full h-56'
+                    src={Algolia}
+                    alt=''
+                  />
+
+                  <div className='p-4 bg-gray-900'>
+                    <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                    <h5 className='text-sm text-white'>
+                      Full-text Search in React with Algolia and Firestore
+                    </h5>
+
+                    <p className='mt-1 text-xs text-gray-500'>
+                      How to add full-text search capabilities to your React-based
+                      website
+                    </p>
+                  </div>
+                </a>
+            </div>
+
+
+
+
             </div>
         </div>
       </section>
