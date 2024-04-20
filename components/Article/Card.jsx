@@ -17,6 +17,7 @@ import SeleniumClick from "../../public/asset/SeleniumClick.png"
 import microfront from "../../public/asset/microfront.webp"
 import ReactnativeSecurity from "../../public/asset/ReactnativeSecurity.jpg"
 import microaws from "../../public/asset/microaws.webp"
+import graphql from "../../public/asset/graphql.webp"
 
 export default function Card({
   title,
@@ -152,10 +153,6 @@ export default function Card({
                   </div>
                 </a>
             </div>
-
-
-
-
 
 
             <div className='p-4 md:w-1/3'>
@@ -390,10 +387,9 @@ export default function Card({
                   </div>
                 </a>
             </div>
-            </div>
-            <div className='flex flex-wrap -m-4'>
+          </div>
 
-
+          <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
                 <a
                   href='https://blog.openreplay.com/full-text-search-in-react-with-algolia-and-firestore'
@@ -420,10 +416,34 @@ export default function Card({
                 </a>
             </div>
 
+            <div className='p-4 md:w-1/3'>
+                <a
+                  href='https://bugfender.com/blog/graphql-react/'
+                  className='block overflow-hidden rounded-2xl'
+                >
+                  <Image
+                    className='object-cover w-full h-56'
+                    src={graphql}
+                    alt=''
+                  />
 
+                  <div className='p-4 bg-gray-900'>
+                    <p className='text-xs text-gray-500'>bugfender.com/blog</p>
 
+                    <h5 className='text-sm text-white'>
+                    Using GraphQL with React: Efficient Data Fetching
+                    </h5>
 
+                    <p className='mt-1 text-xs text-gray-500'>
+                   
+                    </p>
+                  </div>
+                </a>
             </div>
+
+
+
+          </div>
         </div>
       </section>
     </div>
