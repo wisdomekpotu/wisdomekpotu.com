@@ -18,7 +18,7 @@ import microfront from '../../public/asset/microfront.webp';
 import ReactnativeSecurity from '../../public/asset/ReactnativeSecurity.jpg';
 import microaws from '../../public/asset/microaws.webp';
 import graphql from '../../public/asset/graphql.webp';
-import seleniumload from '../../public/asset/seleniumload';
+import seleniumload from '../../public/asset/seleniumload.png';
 
 export default function Card({
   title,
