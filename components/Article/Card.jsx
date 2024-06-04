@@ -461,6 +461,31 @@ export default function Card({
               </a>
             </div>
           </div>
+
+          <div className='flex flex-wrap -m-4'>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.logrocket.com/leveraging-wasp-full-stack-development/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image className='object-cover w-full h-56' src={wasp} alt='' />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.logrocket.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Leveraging Wasp for full-stack development
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'>
+                    Learn how the Wasp, Web Application Specification, framework
+                    simplifies full-stack development by offloading repetitive
+                    code tasks.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
