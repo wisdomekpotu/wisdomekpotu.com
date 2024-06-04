@@ -19,6 +19,7 @@ import ReactnativeSecurity from '../../public/asset/ReactnativeSecurity.jpg';
 import microaws from '../../public/asset/microaws.webp';
 import graphql from '../../public/asset/graphql.webp';
 import seleniumload from '../../public/asset/seleniumload.png';
+import wasp from '../../public/asset/wasp.jpg';
 
 export default function Card({
   title,
