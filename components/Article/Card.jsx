@@ -20,6 +20,7 @@ import microaws from '../../public/asset/microaws.webp';
 import graphql from '../../public/asset/graphql.webp';
 import seleniumload from '../../public/asset/seleniumload.png';
 import wasp from '../../public/asset/wasp.jpg';
+import tanstack from '../../public/asset/tanstack.png';
 
 export default function Card({
   title,
@@ -483,6 +484,28 @@ export default function Card({
                     simplifies full-stack development by offloading repetitive
                     code tasks.
                   </p>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.openreplay.com/tanstack-router-for-react--a-complete-guide/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={tanstack}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>blog.openreplay.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Tanstack Router For React - A Complete Guide
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'></p>
                 </div>
               </a>
             </div>
