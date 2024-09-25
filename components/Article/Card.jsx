@@ -73,7 +73,7 @@ export default function Card({
               >
                 <Image
                   className='object-cover w-full h-56'
-                  src={Overprovisioning}
+                  src={overpro}
                   alt=''
                 />
 
@@ -94,7 +94,7 @@ export default function Card({
               >
                 <Image
                   className='object-cover w-full h-56'
-                  src={mobile_ui}
+                  src={mobileui}
                   alt=''
                 />
 
