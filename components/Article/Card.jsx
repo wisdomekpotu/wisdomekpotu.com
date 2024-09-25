@@ -21,6 +21,9 @@ import graphql from '../../public/asset/graphql.webp';
 import seleniumload from '../../public/asset/seleniumload.png';
 import wasp from '../../public/asset/wasp.jpg';
 import tanstack from '../../public/asset/tanstack.png';
+import mobileui from '../../public/asset/mobile_ui.png';
+import overpro from '../../public/asset/Overprovisioning.jpg';
+import selenium_wire from '../../public/asset/selenium_wire.png';
 
 export default function Card({
   title,
@@ -35,6 +38,85 @@ export default function Card({
     <div>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
+        <div className='flex flex-wrap -m-4'>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://blog.apify.com/how-to-use-selenium-wire/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={selenium_wire}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>
+                    https://blog.apify.com/
+                  </p>
+
+                  <h5 className='text-sm text-white'>
+                  How to use Selenium Wire
+                  </h5>
+
+                  <p className='mt-1 text-xs text-gray-500'>
+                  Learn how to intercept HTTP requests/responses, filter data, and optimize performance for improved web scraping and testing.
+
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://www.acceldata.io/blog/over-provisioning'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={Overprovisioning}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>www.acceldata.io/</p>
+
+                  <h5 className='text-sm text-white'>
+                  Overprovisioning: Definition, Causes, Solutions
+                  </h5>
+                </div>
+              </a>
+            </div>
+
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://www.tricentis.com/learn/mobile-ui-testing-a-detailed-overview'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={mobile_ui}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>www.tricentis.com/learn</p>
+
+                  <h5 className='text-sm text-white'>
+                  Mobile UI testing: A detailed overview
+                  </h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <a
@@ -105,7 +187,6 @@ export default function Card({
               </a>
             </div>
           </div>
-
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <a
