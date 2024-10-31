@@ -24,13 +24,14 @@ export default function Hero() {
               <br />
               <span className='text-3xl'>
                 {' '}
-                Software Engineer + Technical Writer
+                DevOps Engineer + Technical Writer
               </span>
             </h1>
 
             <p className='mb-8 leading-relaxed text-white'>
-              I build things for the web. I specialize in building exceptional
-              digital frontend experiences.
+              primarily focused on building infrastructure using cloud-native
+              technologies. He is also passionate about open source and building
+              communities.
             </p>
             <div className='flex justify-center'>
               <Link href='https://www.linkedin.com/in/wisdom-ekpotu/'>
