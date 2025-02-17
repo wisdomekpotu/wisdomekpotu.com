@@ -24,6 +24,10 @@ import tanstack from '../../public/asset/tanstack.png';
 import mobileui from '../../public/asset/mobile_ui.png';
 import overpro from '../../public/asset/Overprovisioning.jpg';
 import selenium_wire from '../../public/asset/selenium_wire.png';
+import useLayoutEffect from '../../public/asset/useLayoutEffect.png';
+import openTelemetry from '../../public/asset/openTelemetry.png';
+import react_testing from '../../public/asset/react_testing.png';
+import voice_chat from '../../public/asset/voice_chat.png';
 
 export default function Card({
   title,
@@ -503,6 +507,91 @@ export default function Card({
 
                   <h5 className='text-sm text-white'>
                     Mobile UI testing: A detailed overview
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://refine.dev/blog/uselayouteffect-vs-useeffect/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={useLayoutEffect}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>refine.dev</p>
+
+                  <h5 className='text-sm text-white'>
+                    A Guide to Using the useLayoutEffect Hook in React
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://www.dnsstuff.com/opentelemetry-complete-guide-to-the-open-source-observability-framework'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={openTelemetry}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>refine.dev</p>
+
+                  <h5 className='text-sm text-white'>
+                    OpenTelemetry – Complete Guide to the Open-Source
+                    Observability Framework
+                  </h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -m-4'>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://bugfender.com/blog/react-testing/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={react_testing}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>bugfender.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Comprehensive Guide to Testing React Apps: Unit,
+                    Integration, and E2E Testing
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <a
+                href='https://bugfender.com/blog/build-an-ai-voice-chatbot/'
+                className='block overflow-hidden rounded-2xl'
+              >
+                <Image
+                  className='object-cover w-full h-56'
+                  src={voice_chat}
+                  alt=''
+                />
+
+                <div className='p-4 bg-gray-900'>
+                  <p className='text-xs text-gray-500'>bugfender.com</p>
+
+                  <h5 className='text-sm text-white'>
+                    Build an AI Voice Chatbot with GPT, DALL·E and React Native
                   </h5>
                 </div>
               </a>
